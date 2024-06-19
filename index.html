@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="converter">
+        <input type="number" id="inputValue" placeholder="Enter value" />
+        <div class="labels">
+          <span id="inputLabel">Celsius</span>
+          <span>To</span>
+          <span id="outputLabel">Fahrenheit</span>
+        </div>
+        <div class="buttons">
+          <button onclick="convert()">Convert</button>
+          <button onclick="swap()">Swap</button>
+        </div>
+        <div class="result" id="result"></div>
+      </div>
+      <div class="how-it-works">
+        <h2>How it works</h2>
+        <ul>
+          <li>
+            To convert Celsius to Fahrenheit, multiply the temperature by 9/5
+            and then add 32.
+          </li>
+          <li>
+            To convert Fahrenheit to Celsius, subtract 32 from the temperature
+            and then multiply by 5/9.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  background-color: #2c2c2c;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 500px;
+  text-align: center;
+  background-color: #3a3a3a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.converter {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #fff;
+  color: #000;
+}
+
+.labels {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.labels #inputLabel,
+.labels #outputLabel {
+  width: 130px;
+  padding: 8px 16px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: solid rgba(0, 0, 0, 0.5) 1px;
+  border-radius: 8px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.how-it-works {
+  margin-top: 20px;
+}
+
+.how-it-works ul li {
+  margin: 10px;
+  text-align: left;
+}
